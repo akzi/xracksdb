@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d9e7905-51f4-46c4-86a9-e85e1ba43743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\raft">
+      <UniqueIdentifier>{fcf9f616-ebc2-4450-b79f-895162aae1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\rpc">
+      <UniqueIdentifier>{27359180-27bf-4823-8b93-caad49358783}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\raft\raft_service.hpp">
+      <Filter>include\raft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rpc\client.hpp">
+      <Filter>include\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rpc\server.hpp">
+      <Filter>include\rpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\xracksdb.cpp" />
+  </ItemGroup>
+</Project>
